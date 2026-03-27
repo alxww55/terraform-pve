@@ -43,4 +43,11 @@ resource "proxmox_lxc" "this" {
 
   tags = length(var.tags) > 0 ? join(";", var.tags) : null
 
+  lifecycle {
+    prevent_destroy = true
+
+    ignore_changes = [
+      tags
+    ]
+  }
 }
