@@ -76,6 +76,7 @@ module "lxc" {
   ]
 }
 ```
+Check `examples/` folder for more examples 
 ## Project Status
 Contributions are welcome!
 
