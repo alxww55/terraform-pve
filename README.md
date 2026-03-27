@@ -2,7 +2,7 @@
 Terraform module for provisioning and managing LXC in Proxmox VE
 
 ![Proxmox](https://img.shields.io/badge/Proxmox-VE-orange)
-![Terraform](https://img.shields.io/badge/Terraform-1.5+-purple)
+![Terraform](https://img.shields.io/badge/Terraform-1.4+-purple)
 ![GitHub License](https://img.shields.io/github/license/alxww55/shorty)
 
 ## Features
